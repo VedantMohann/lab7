@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class ListExamplesTests {
 	@Test(timeout = 500)
 	public void testMerge1() {
-    		List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));
+    		List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));// sdfsdfsdf
 		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
 	}
 	
